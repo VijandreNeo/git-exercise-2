@@ -1,5 +1,5 @@
 const square = (n) => {
-    return Math.sqrt(n);
+    return n * n;
 }
 
 const fahrenheit = (celsius) => {
