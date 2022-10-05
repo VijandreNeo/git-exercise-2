@@ -1,7 +1,7 @@
-const x = require('./lib');
+const fn = require('./lib');
 
-console.log(x.fahrenheit(30));
-console.log(x.isPalindrome('hannah'));
-console.log(x.isPalindrome('testing'));
-console.log(x.rectangleArea(5, 8));
-console.log(x.square(4));
+console.log(fn.fahrenheit(30));
+console.log(fn.isPalindrome('hannah'));
+console.log(fn.isPalindrome('testing'));
+console.log(fn.rectangleArea(5, 8));
+console.log(fn.square(4));
