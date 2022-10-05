@@ -1,17 +1,11 @@
-const square = (n) => {
-    return n * n;
-}
+const square = (n) =>  n * n;
 
-const fahrenheit = (celsius) => {
-    return (celsius * 1.8) + 32;
-}
+const fahrenheit = (celsius) => (celsius * (9 / 5)) + 32;
 
-const rectangleArea = (a, b) => {
-    return a * b;
-}
+const rectangleArea = (a, b) =>  a * b;
 
 const isPalindrome = (str) => {
-    let revArr = [];
+    const revArr = [];
 
     for (let i = str.length - 1; i >= 0; i--) {
         revArr.push(str.at(i));
