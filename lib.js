@@ -15,3 +15,10 @@ const isPalindrome = (str) => {
 
     return revStr.toUpperCase() === str.toUpperCase();
 }
+
+module.exports = {
+    square,
+    fahrenheit,
+    rectangleArea,
+    isPalindrome
+}
