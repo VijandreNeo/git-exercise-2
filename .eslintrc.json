@@ -5,6 +5,7 @@
     },
     "extends": "airbnb-base",
     "overrides": [
+        { "files": ["**/*.js", "**/*.mjs"]}
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -16,6 +17,9 @@
             "error",
             "never"
         ],
-        "import/extensions" : "ignorePackage"
+        "import/extensions" : [
+            "off",
+            "ignorePackage"
+        ]
     }
 }
