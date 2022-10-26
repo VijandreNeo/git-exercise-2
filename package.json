@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/VijandreNeo/git-exercise-2/issues"
   },
-  "homepage": "https://github.com/VijandreNeo/git-exercise-2#readme"
+  "homepage": "https://github.com/VijandreNeo/git-exercise-2#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "keywords": []
 }
